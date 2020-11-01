@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        link(rel="stylesheet", href="assets/css/style.min.css")
+
+        // Useful meta tags
+        meta(http-equiv="x-ua-compatible", content="ie=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(name="robots", content="index, follow, noodp")
+        meta(name="googlebot", content="index, follow")
+        meta(name="google", content="notranslate")
+        meta(name="format-detection", content="telephone=no")
+        meta(name="keywords", content="")
+        meta(name="description", content="")
+
+        // Favicons
+        link(rel="apple-touch-icon", sizes="180x180", href="assets/img/favicons/apple-touch-icon.png")
+        link(rel="icon", type="image/png", sizes="32x32", href="assets/img/favicons/favicon-32x32.png")
+        link(rel="icon", type="image/png", sizes="16x16", href="assets/img/favicons/favicon-16x16.png")
+        link(rel="manifest", href="assets/img/favicons/site.webmanifest")
+        link(rel="mask-icon", href="assets/img/favicons/safari-pinned-tab.svg", color="#5bbad5")
+        meta(name="msapplication-TileColor", content="#da532c")
+        meta(name="theme-color", content="#ffffff")
+
+        title Илья Соловьев
+    body
+        .page
+            header.header
+                .container
+                    .header__inner
+                        a.logo(href="/")
+                            p.logo__name Илья Соловьев
+                            p.logo__subtitle фронтенд-разработчик
+            main.main
+                nav.nav
+                    .container
+                        ul.nav__list
+                            li.nav__item.active(data-tab="#works") Мои работы
+                            li.nav__item(data-tab="#skills") Навыки
+                            li.nav__item(data-tab="#contacts") Контакты
+                .tabs
+                    .tabs__item.show#works
+                        .container
+                            .works
+                                a.works__item(href="https://xn--e1affnfjebo2d.xn--p1ai/index", target="_blank")
+                                    .works__col
+                                        .works__img-background
+                                            img.img(src="assets/img/works/work8.jpg", alt)
+                                        .works__link-block
+                                            .works__link-wrap
+                                                span.works__link(data-name="screenshoter") Описание
+                                    .works__col
+                                        .works__title-background.works__title-background--commercial-project
+                                            h4.works__title Screenshoter
+                                a.works__item(href="https://zavod.digital/", target="_blank")
+                                    .works__col
+                                        .works__img-background
+                                            img.img(src="assets/img/works/work7.jpg", alt)
+                                        .works__link-block
+                                            .works__link-wrap
+                                                span.works__link(data-name="zavod") Описание
+                                    .works__col
+                                        .works__title-background.works__title-background--commercial-project
+                                            h4.works__title Zavod
+                                a.works__item(href="https://illya-soloviev.github.io/DriveMoto/", target="_blank")
+                                    .works__col
+                                        .works__img-background
+                                            img.img(src="assets/img/works/work9.jpg", alt)
+                                        .works__link-block
+                                            .works__link-wrap
+                                                span.works__link(data-name="drive-moto") Описание
+                                    .works__col
+                                        .works__title-background
+                                            h4.works__title Drive moto
+                                a.works__item(href="https://illya-soloviev.github.io/elwau/", target="_blank")
+                                    .works__col
+                                        .works__img-background
+                                            img.img(src="assets/img/works/work1.jpg", alt)
+                                        .works__link-block
+                                            .works__link-wrap
+                                                span.works__link(data-name="elwau") Описание
+                                    .works__col
+                                        .works__title-background
+                                            h4.works__title Elwau
+                                a.works__item(href="https://illya-soloviev.github.io/allybike/", target="_blank")
+                                    .works__col
+                                        .works__img-background
+                                            img.img(src="assets/img/works/work2.jpg", alt)
+                                        .works__link-block
+                                            .works__link-wrap
+                                                span.works__link(data-name="allybike") Описание
+                                    .works__col
+                                        .works__title-background
+                                            h4.works__title AllyBike
+                                a.works__item(href="https://illya-soloviev.github.io/crowdfunding/", target="_blank")
+                                    .works__col
+                                        .works__img-background
+                                            img.img(src="assets/img/works/work3.jpg", alt)
+                                        .works__link-block
+                                            .works__link-wrap
+                                                span.works__link(data-name="crowdme") Описание
+                                    .works__col
+                                        .works__title-background
+                                            h4.works__title Crowdme
+                                a.works__item(href="https://illya-soloviev.github.io/waxom/", target="_blank")
+                                    .works__col
+                                        .works__img-background
+                                            img.img(src="assets/img/works/work4.jpg", alt)
+                                        .works__link-block
+                                            .works__link-wrap
+                                                span.works__link(data-name="waxom") Описание
+                                    .works__col
+                                        .works__title-background
+                                            h4.works__title Waxom
+                                a.works__item(href="https://illya-soloviev.github.io/mogo/", target="_blank")
+                                    .works__col
+                                        .works__img-background
+                                            img.img(src="assets/img/works/work5.jpg", alt)
+                                        .works__link-block
+                                            .works__link-wrap
+                                                span.works__link(data-name="mogo") Описание
+                                    .works__col
+                                        .works__title-background
+                                            h4.works__title Mogo
+                                //-
+                                    a.works__item(href="https://php-work.ru/", target="_blank")
+                                        .works__col
+                                            .works__img-background
+                                                img.img(src="assets/img/works/work6.jpg", alt)
+                                            .works__link-block
+                                                .works__link-wrap
+                                                    span.works__link(data-name="animal") Описание
+                                        .works__col
+                                            .works__title-background.works__title-background--php
+                                                h4.works__title Animal
+                    .tabs__item#descriptionWorkTab
+                        .container
+                            .tabs__info
+                                button.tabs__close(type="button")
+                                    include assets/img/close.svg
+                                h3.tabs__title#workTitle Elwau
+                                .tabs__content
+                                    .works__description
+                                        p.
+                                            Далеко-далеко за словесными горами, в стране гласных и согласных
+                                            живут рыбные тексты. Власти оксмокс дал даже силуэт маленький снова
+                                            предупредила злых пустился.
+                                    ul.works__technologies
+                                        li.works__technologies-item HTML
+                                        li.works__technologies-item CSS
+                                        li.works__technologies-item Jquery
+                    .tabs__item#skills
+                        .container
+                            .tabs__info
+                                button.tabs__close(type="button")
+                                    include assets/img/close.svg
+                                h3.tabs__title.tabs__title--center Мои навыки
+                                .tabs__content
+                                    .skills
+                                        .skills__item
+                                            img(src="assets/img/skills/data.svg", alt).skills__img
+                                            .skills__content
+                                                h4.skills__title HTML + CSS
+                                                p.skills__text.
+                                                    Знание препроцессоров SASS, LESS и Pug
+                                        .skills__item
+                                            img(src="assets/img/skills/resize.svg", alt).skills__img
+                                            .skills__content
+                                                h4.skills__title Adaptive
+                                                p.skills__text.
+                                                    Реализуемый с помощью flexbox и медиа запросов
+                                        .skills__item
+                                            img(src="assets/img/skills/binary-data.svg", alt).skills__img
+                                            .skills__content
+                                                h4.skills__title Cross-Browser
+                                                p.skills__text.
+                                                    Оптимальное отображение сайтов во всех современных браузерах
+                                        .skills__item
+                                            img(src="assets/img/skills/code.svg", alt).skills__img
+                                            .skills__content
+                                                h4.skills__title JavaScript
+                                                p.skills__text.
+                                                    Базовые знания JavaScript/jQuery и применение их 
+                                                    в работе с Gulp 
+                                        .skills__item
+                                            img(src="assets/img/skills/php.png", alt).skills__img
+                                            .skills__content
+                                                h4.skills__title PHP
+                                                p.skills__text.
+                                                    Базовые знания PHP и SQL
+                                        .skills__item
+                                            img(src="assets/img/skills/software.svg", alt).skills__img
+                                            .skills__content
+                                                h4.skills__title Photoshop
+                                                p.skills__text.
+                                                    Уменние использовать photoshop в работе с макетами
+                    .tabs__item#contacts
+                        .container
+                            .tabs__info
+                                button.tabs__close(type="button")
+                                    include assets/img/close.svg
+                                h3.tabs__title Контакты
+                                .tabs__content
+                                    .contacts
+                                        p.contacts__title Вы можете связаться со мной
+                                        .contacts__links
+                                            .contacts__links-item
+                                                | Телефон: 
+                                                a.contacts__link(href="tel:+89056347275") +89056347275
+                                            .contacts__links-item
+                                                | E-mail: 
+                                                a.contacts__link(href="mailto:ilya.solovev.88@bk.ru") ilya.solovev.88@bk.ru
+                                        p.contacts__title И также в соцсетях
+                                        .contacts__socials
+                                            a.contacts__social-link(href="https://vk.com/id147903054" target="_blank")
+                                                img(src="assets/img/socials/vk.svg", alt)
+                                            a.contacts__social-link(href="https://t.me/illyaSoloviev" target="_blank")
+                                                img(src="assets/img/socials/telegram.svg", alt)
+                                            a.contacts__social-link(href="https://github.com/illya-soloviev" target="_blank")
+                                                img(src="assets/img/socials/github.svg", alt)
+        script(src="assets/js/description.min.js")
+        script(src="assets/js/app.min.js")

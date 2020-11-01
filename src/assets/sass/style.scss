@@ -1,0 +1,71 @@
+@import 'vars';
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Barlow:300,400,700");
+
+/* Default Styles */
+html {
+    font-size: 10px;
+}
+
+body {
+margin: 0px;
+
+background: #372a21 url(../img/bg.jpg) 0 0 no-repeat;
+background-size: cover;
+
+font-family: 'Barlow', sans-serif;
+line-height: 1;
+}
+
+.page {
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 1010px;
+
+    @media (min-width: 1200px) {
+        max-width: 1140px;
+    }
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Blocks */
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/nav";
+@import "blocks/works";
+@import "blocks/tabs";
+@import "blocks/skills";
+@import "blocks/contacts";
+@import "blocks/main";
+
+@import "helpers";

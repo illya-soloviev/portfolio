@@ -1,0 +1,27 @@
+.logo {
+    text-decoration: none;
+}
+
+.logo__name {
+    font-size: 4rem;
+    font-weight: 300;
+    color: $white;
+    text-transform: uppercase;
+
+    @media (max-width: 991px) {
+        font-size: 3rem;
+    }
+}
+
+.logo__subtitle {
+    font-size: 2.2rem;
+    font-weight: 400;
+    letter-spacing: .12em;
+    color: $gray-light;
+    text-transform: uppercase;
+
+    @media (max-width: 991px) {
+        font-size: 1.6rem;
+        letter-spacing: .14em;
+    }
+}
